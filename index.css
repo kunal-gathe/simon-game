@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(33, 33, 85);
+    text-align: center;
+}
+h1{
+    color: wheat;
+    font-family: 'Creepster', cursive;
+    word-spacing: 10px;
+    font-weight: 10px;
+    letter-spacing: 10px;
+    font-size: 5rem;
+}
+.container{
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding-top: 40px;
+    
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    /* background-color: azure; */
+    margin: 15px;
+    border: 10px solid black;
+    border-radius: 30px;
+}
+.green{
+    background-color: green;
+    color: green;
+}
+.red{
+    background-color: red;
+    color: red;
+}
+.yellow{
+    background-color: yellow;
+    color: yellow;
+}
+.blue{
+    background-color: blue;
+    color: blue;
+}
+
+.pressed{
+    box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+footer{
+    color: white;
+    margin-top: 40px;
+}
+
